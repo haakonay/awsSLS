@@ -184,7 +184,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/visma-serverless-course/api/1646312483292-2022-03-03T13:01:23.292Z/visma-serverless-course.zip"
+                "S3Key": "serverless/visma-serverless-course/api/1646313398124-2022-03-03T13:16:38.124Z/visma-serverless-course.zip"
               },
               "Handler": "handler.hello",
               "Runtime": "python3.8",
@@ -209,7 +209,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/visma-serverless-course/api/1646312483292-2022-03-03T13:01:23.292Z/visma-serverless-course.zip"
+                "S3Key": "serverless/visma-serverless-course/api/1646313398124-2022-03-03T13:16:38.124Z/visma-serverless-course.zip"
               },
               "Handler": "handler.calculator",
               "Runtime": "python3.8",
@@ -361,7 +361,7 @@
               "CalculatorLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1646312481711": {
+          "ApiGatewayDeployment1646313396669": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -388,11 +388,11 @@
                 }
               ]
             },
-            "DependsOn": "ApiGatewayDeployment1646312481711"
+            "DependsOn": "ApiGatewayDeployment1646313396669"
           },
           "ApiGatewayUsagePlan": {
             "Type": "AWS::ApiGateway::UsagePlan",
-            "DependsOn": "ApiGatewayDeployment1646312481711",
+            "DependsOn": "ApiGatewayDeployment1646313396669",
             "Properties": {
               "ApiStages": [
                 {
@@ -671,7 +671,7 @@
     "artifact": "C:\\Users\\haako\\PycharmProjects\\awsServerless\\.serverless\\visma-serverless-course.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/visma-serverless-course/api/1646312483292-2022-03-03T13:01:23.292Z",
+    "artifactDirectoryName": "serverless/visma-serverless-course/api/1646313398124-2022-03-03T13:16:38.124Z",
     "artifact": "visma-serverless-course.zip"
   }
 }
